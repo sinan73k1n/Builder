@@ -58,3 +58,16 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# ⛔ Editör oturum durumu — Unity makineye özel üretir; yerel yolları ve başka
+# proje adlarını taşır (herkese açık depoda görüldü).
+/[Uu]serSettings/
+
+# Kişisel editör ayarları ve çökme dökümleri
+/.vscode/
+/.vsconfig
+mono_crash.*.json
+.DS_Store
+
+# Kaynak tasarım dosyaları: derlemeye gerekmez, depoyu on kat büyütür.
+# Diskte duruyorlar, yalnız sürümlenmiyorlar.
+*.psd
