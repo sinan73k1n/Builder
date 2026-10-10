@@ -71,3 +71,11 @@ mono_crash.*.json
 # Kaynak tasarım dosyaları: derlemeye gerekmez, depoyu on kat büyütür.
 # Diskte duruyorlar, yalnız sürümlenmiyorlar.
 *.psd
+# …ve meta'ları (yukarıdaki !*.meta istisnası onları geri alıyordu)
+*.psd.meta
+
+# ⛔ Claude Code çalışma alanı — GitHub'a gitmez (yedeği 2. beyinde)
+.claude/
+CLAUDE.md
+**/CLAUDE.md
+AGENTS.md
